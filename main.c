@@ -20,11 +20,11 @@ int main(void) {
     /*********** RICERCA SEQUENZIALE ***********/
     int posizione = -1;
     for(int i=0; i<DIM && posizione==-1; i++)
-        if(numeri[i]==valore )
+        if( numeri[i]==valore )
             posizione = i;
     /*******************************************/
 
-    if(posizione!=-1)
+    if( posizione!=-1 )
         printf("Il valore è presente in posizione %d\n", posizione);
     else
         printf("Il valore non è presente\n");
